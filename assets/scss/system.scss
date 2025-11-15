@@ -162,19 +162,19 @@
 }
 
 // POSITION UTILITY CLASSES
-.position-static {
+.pos-static {
     position: static;
 }
-.position-relative {
+.pos-relative {
     position: relative;
 }
-.position-absolute {
+.pos-absolute {
     position: absolute;
 }
-.position-fixed {
+.pos-fixed {
     position: fixed;
 }
-.position-sticky {
+.pos-sticky {
     position: sticky;
 }
 
@@ -195,23 +195,23 @@
 .left-auto   { left: auto; }
 
 // CENTERING ABSOLUTE/FIXED ELEMENTS
-.position-absolute-center {
+.pos-absolute-center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.position-absolute-center-y {
+.pos-absolute-center-y {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
-.position-absolute-center-x {
+.pos-absolute-center-x {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
-.position-fixed-center {
+.pos-fixed-center {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -479,22 +479,22 @@
 .padding-lg {
     @include padding(all, $space-lg);
 }
-.padding-lg-x {
+.padding-x-lg {
     @include padding(x, $space-lg);
 }
-.padding-lg-y {
+.padding-y-lg {
     @include padding(y, $space-lg);
 }
-.padding-lg-top {
+.padding-top-lg {
     @include padding(top, $space-lg);
 }
-.padding-lg-right {
+.padding-right-lg {
     @include padding(right, $space-lg);
 }
-.padding-lg-bottom {
+.padding-bottom-lg {
     @include padding(bottom, $space-lg);
 }
-.padding-lg-left {
+.padding-left-lg {
     @include padding(left, $space-lg);
 }
 
@@ -503,22 +503,22 @@
 .padding-md {
     @include padding(all, $space-md);
 }
-.padding-md-x {
+.padding-x-md {
     @include padding(x, $space-md);
 }
-.padding-md-y {
+.padding-y-md {
     @include padding(y, $space-md);
 }
-.padding-md-top {
+.padding-top-md {
     @include padding(top, $space-md);
 }
-.padding-md-right {
+.padding-right-md {
     @include padding(right, $space-md);
 }
-.padding-md-bottom {
+.padding-bottom-md {
     @include padding(bottom, $space-md);
 }
-.padding-md-left {
+.padding-left-md {
     @include padding(left, $space-md);
 }
 
@@ -527,22 +527,22 @@
 .padding-sm {
     @include padding(all, $space-sm);
 }
-.padding-sm-x {
+.padding-x-sm {
     @include padding(x, $space-sm);
 }
-.padding-sm-y {
+.padding-y-sm {
     @include padding(y, $space-sm);
 }
-.padding-sm-top {
+.padding-top-sm {
     @include padding(top, $space-sm);
 }
-.padding-sm-right {
+.padding-right-sm {
     @include padding(right, $space-sm);
 }
-.padding-sm-bottom {
+.padding-bottom-sm {
     @include padding(bottom, $space-sm);
 }
-.padding-sm-left {
+.padding-left-sm {
     @include padding(left, $space-sm);
 }
 
@@ -551,22 +551,22 @@
 .margin-lg {
     @include margin(all, $space-lg);
 }
-.margin-lg-x {
+.margin-x-lg {
     @include margin(x, $space-lg);
 }
-.margin-lg-y {
+.margin-y-lg {
     @include margin(y, $space-lg);
 }
-.margin-lg-top {
+.margin-top-lg {
     @include margin(top, $space-lg);
 }
-.margin-lg-right {
+.margin-right-lg {
     @include margin(right, $space-lg);
 }
-.margin-lg-bottom {
+.margin-bottom-lg {
     @include margin(bottom, $space-lg);
 }
-.margin-lg-left {
+.margin-left-lg {
     @include margin(left, $space-lg);
 }
 
@@ -575,22 +575,22 @@
 .margin-md {
     @include margin(all, $space-md);
 }
-.margin-md-x {
+.margin-x-md {
     @include margin(x, $space-md);
 }
-.margin-md-y {
+.margin-y-md {
     @include margin(y, $space-md);
 }
-.margin-md-top {
+.margin-top-md {
     @include margin(top, $space-md);
 }
-.margin-md-right {
+.margin-right-md {
     @include margin(right, $space-md);
 }
-.margin-md-bottom {
+.margin-bottom-md {
     @include margin(bottom, $space-md);
 }
-.margin-md-left {
+.margin-left-md {
     @include margin(left, $space-md);
 }
 
@@ -599,22 +599,22 @@
 .margin-sm {
     @include margin(all, $space-sm);
 }
-.margin-sm-x {
+.margin-x-sm {
     @include margin(x, $space-sm);
 }
-.margin-sm-y {
+.margin-y-sm {
     @include margin(y, $space-sm);
 }
-.margin-sm-top {
+.margin-top-sm {
     @include margin(top, $space-sm);
 }
-.margin-sm-right {
+.margin-right-sm {
     @include margin(right, $space-sm);
 }
-.margin-sm-bottom {
+.margin-bottom-sm {
     @include margin(bottom, $space-sm);
 }
-.margin-sm-left {
+.margin-left-sm {
     @include margin(left, $space-sm);
 }
 
